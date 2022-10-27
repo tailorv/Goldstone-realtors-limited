@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldstone Realtors</title>
+    <script src="./assets/landing-js/jquery.js"></script>
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/landing-css/style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <!-- please ensure to copy the above css links for mdbootstrap as well -->
+<nav class="navbar-nav navbar-expand-lg navbar-dark fixed-top  navlink" style="background-color: #f1e100;">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="./index.html">
+          <img
+            src="./assets/langing-page-images/profile2.png"
+            height="90"
+            alt="Goldstone realtors Logo"
+            loading="lazy"
+          />
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 m-5 fs-2 gap-5">
+          <li class="nav-item">
+            <a class="nav-link navlink" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navlink" href="https://mintvillas.co.ke/portfolio/twinfalls-riverside/">TwinFalls city Riverside</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link navlink" href="https://mintvillas.co.ke/portfolio/savanna-greens-estate/#">Savannah Green Estate</a>
+          </li>
+          <!-- <li class="nav-item ">
+            <a class="nav-link navlinkc" href="#">Snacks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navlinkc" href="#">Order</a>
+          </li> -->
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <!-- <a class="text-reset me-3" href="#"> -->
+          <!-- <i class="fas fa-shopping-cart"></i>
+        </a> -->
+  
+        
+        <!-- Avatar -->
+        <!-- <div class="dropdown">
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Logged in as Guest</a>
+            </li>
+            <li>
+              <a class="dropdown-item" data-mdb-toggle="tooltip" data-mdb-placement="left" title="Sign up feature coming soon" href="#">Sign up</a>
+            </li>
+            <li>
+              <a class="dropdown-item" data-mdb-toggle="tooltip" data-mdb-placement="left" title="Login feature coming in a later build" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+<!-- Background image on the first section-->
+<div
+id="intro-example"
+class="container-fluid p-5 text-center bg-image hero"
+style="background-image: url('./assets/langing-page-images/ARCH2.jpg');"
+>
+<div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
+  <div class="d-flex justify-content-center align-items-center h-100">
+    <div class="text-white">
+      <h1 class="mb-3">Goldstone Realtors</h1>
+      <h5 class="mb-4">We are Experts in Ultra Modern Bungalows and Maisonettes.</h5>
+      <a
+        class="btn btn-outline-light btn-lg m-2 herobtn"
+        href="./assets/recipe.html"
+        role="button"
+        rel="nofollow"
+        target="_blank"
+      >Book your Home</a
+      >
+      <a
+        class="btn btn-outline-light btn-lg m-2 herobtn"
+        href="https://my.matterport.com/show/?m=yBcLNtyPgwL&sr=-2.5,-1.1&ss=10"
+        target="_blank"
+        role="button"
+      >Visit Our Showroom</a
+      >
+    </div>
+  </div>
+</div>
+</div>
+<!-- Background image on the first section -->
+
+
+
+<!-- <div class="container mt-5"> -->
+    <!-- <div class="subtext mt-5 text-center"> -->
+        <!-- <h6>Subscribe Now! Stay on top of the latest recipes.</h6>
+    </div> -->
+
+    <!-- <form class="row mt-5">
+        Name input
+        <div class="col m-2 form-outline mb-4">
+          <input type="text" id="form5Example1" class="form-control" />
+          <label class="form-label" for="form5Example1">Name</label>
+        </div>
+      
+        Email input
+        <div class="col m-2 form-outline mb-4">
+          <input type="email" id="form5Example2" class="form-control" />
+          <label class="form-label" for="form5Example2">Email address</label>
+        </div>
+      
+       
+      
+        Submit button
+        <div class="col m-2">
+        <button type="submit" class="btn btn-primary btn-block mb-4 herobtn">Subscribe</button>
+        </div>
+      </form>
+</div> -->
+
+<!-- subscription area -->
+<main class="card mt-5  ">
+  <div class="container-fluid ">
+      <div class="col-md-6 text-center  mx-auto">
+          <div>
+              <h2> <span class="title"></span> 
+              <br
+              <full-stop> 𝙂𝙤𝙡𝙙𝙎𝙩𝙤𝙣𝙚 𝙍𝙚𝙖𝙡𝙩𝙤𝙧𝙨 is a Kenyan - based Property Agent </h2>
+                <h2>Of integrated lifestyle communities offering exceptional value to aspiring homeowners.</h2></full-stop>
+              <p class="fw-bold"> The company has established itself at the forefront of residential property development in Nairobi, through the runaway success of flagship projects like </strong>Twinfalls City Estate and Savanna-Greens-Estate</p>
+          </div>
+      </div>
+      
+      <!-- <div class="col-md-6 home-image card  mx-auto float-start" >
+              <img src="./assets/langing-page-images/ARCH2.jpg" alt="" >
+      </div> -->
+  </div>
+</main>
+
+
+<div class=" container row  mx-auto mt-5">
+  <h1 style="text-align: center; font-weight: bold;">OUR PROJECTS</h1>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Twinfalls City</h5>
+        <p class="card-text">This is the next development after the successful completion and handing over of Savanna Greens Estate.
+          This new development is situated along Kangundo road at Malaa Shopping centre. It is a very prime location
+          since it touches Kangundo Road (B63: KENHA).</p>
+          <p>With a seasonal waterway the cuts across the estate that forms natural twin ridges hence the name Twinfalls.</p>
+          
+     
+        <img
+          src="./assets/langing-page-images/ARCH4.jpg"
+          class="w-100"
+          alt="Alternative text"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"> Savanna Greens Estate</h5>
+        <p class="card-text">Savanna Greens Estate project at Joska along Kangundo Road is truly self-contained and offers residents all their needs in close proximity.</p>
+          <p>The project was started in the first quarter of 2019, and completed in July 2020.Each house was set on an Eighth of an acre (50 x 100ft), with individual title deed. All the houses are now fully occupied.</p>
+   
+        <img
+          src="./assets/langing-page-images/ARCH3.jpg"
+          class="w-100"
+          alt="Alternative text"
+        />
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+
+<div class="container mt-5">
+    <div class="recips mt-5">
+      <hr><h3 class="text-center">PROJECTS</h3><hr>
+    </div>
+    <div class="container">
+        <!--Grid row-->
+
+
+
+<div class="row mt-5">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+      <!-- Image with no mask -->
+      <div class="bg-image rounded-6 masking bg1">
+        <img
+          src="./assets/langing-page-images/potraits 1.jpg"
+          class="w-100"
+          alt="Alternative text"
+        />
+        <!-- Mask -->
+        <div class="mask"
+        style="
+          background: linear-gradient(
+            to bottom,
+            hsla(0, 0%, 0%, 0),
+            hsla(263, 80%, 20%, 0.0)
+          );
+        ">
+          <div
+            class="
+              bottom-0
+              d-flex
+              align-items-end
+              h-50
+              text-center
+              justify-content-center
+            "
+          >
+            <div>
+              <h2 class="fw-bold text-white mb-4">Affordable Housing</h2>
+              <a type="button" href="https://my.matterport.com/show/?m=yBcLNtyPgwL&sr=-2.5,-1.1&ss=10" class="btn btn-warning btn-rounded mt-3 btn1">View Houses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <!-- Image with black mask -->
+      <div class="bg-image rounded-6 masking bg2">
+        <img
+          src="./assets/langing-page-images/potraits 2.jpg"
+          class="w-100"
+          alt="Alternative text"
+        />
+        <!-- Mask -->
+        <div
+        class="mask"
+        style="
+          background: linear-gradient(
+            to bottom,
+            hsla(0, 0%, 0%, 0),
+            hsla(263, 80%, 20%, 0.0)
+          );
+        "
+        >
+          <div
+            class="
+              bottom-0
+              d-flex
+              align-items-end
+              h-50
+              text-center
+              justify-content-center
+            "
+          >
+            <div>
+              <h2 class="fw-bold text-white mb-4">Mortgage financing</h2>
+              <a type="button" href="https://my.matterport.com/show/?m=yBcLNtyPgwL&sr=-2.5,-1.1&ss=10" class="btn btn-warning btn-rounded mt-3 btn2">View Houses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <!-- Image with violet mask -->
+      <div class="bg-image rounded-6 masking bg3">
+        <img
+          src="./assets/langing-page-images/potraits 3.jpg"
+          class="w-100"
+          alt="Alternative text"
+        />
+        <!-- Mask -->
+        <div
+        class="mask"
+        style="
+          background: linear-gradient(
+            to bottom,
+            hsla(0, 0%, 0%, 0),
+            hsla(263, 80%, 20%, 0.0)
+          );
+        "
+        >
+          <div
+            class="
+              bottom-0
+              d-flex
+              align-items-end
+              h-50
+              text-center
+              justify-content-center
+            "
+          >
+            <div>
+              <h2 class="fw-bold text-white mb-4">Flexible Instalment plans</h2>
+              <a type="button" href="https://my.matterport.com/show/?m=yBcLNtyPgwL&sr=-2.5,-1.1&ss=10" class="btn btn-warning btn-rounded mt-3 btn3">View Houses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Grid row-->
+  <div class="row mt-5">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <!-- Image with no mask -->
+      <div class="bg-image rounded-6 masking bg4">
+        <img
+          src="./assets/langing-page-images/potraits 4.jpg"
+          class="w-100"
+          alt="Alternative text"
+        />
+        <!-- Mask -->
+        <div class="mask"
+        style="
+          background: linear-gradient(
+            to bottom,
+            hsla(0, 0%, 0%, 0),
+            hsla(263, 80%, 20%, 0.0)
+          );
+        ">
+          <div
+            class="
+              bottom-0
+              d-flex
+              align-items-end
+              h-50
+              text-center
+              justify-content-center
+            "
+          >
+            <div>
+              <h2 class="fw-bold text-white mb-4">Ample parking</h2>
+              <a type="button" href="https://my.matterport.com/show/?m=yBcLNtyPgwL&sr=-2.5,-1.1&ss=10" class="btn btn-warning btn-rounded mt-3 btn4">View Houses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <!-- Image with black mask -->
+      <div class="bg-image rounded-6 masking bg5">
+        <img
+          src="./assets/langing-page-images/potraits 5.jpg"
+          class="w-100"
+          alt="Alternative text"
+        />
+        <!-- Mask -->
+        <div
+        class="mask"
+        style="
+          background: linear-gradient(
+            to bottom,
+            hsla(0, 0%, 0%, 0),
+            hsla(263, 80%, 20%, 0.0)
+          );
+        "
+        >
+          <div
+            class="
+              bottom-0
+              d-flex
+              align-items-end
+              h-50
+              text-center
+              justify-content-center
+            "
+          >
+            <div>
+              <h2 class="fw-bold text-white mb-4">3-Phase electricity power supply </h2>
+              <a type="button" href="https://my.matterport.com/show/?m=yBcLNtyPgwL&sr=-2.5,-1.1&ss=10" class="btn btn-warning btn-rounded mt-3 btn5">View Houses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <!-- Image with violet mask -->
+      <div class="bg-image rounded-6 masking bg6">
+        <img
+          src="./assets/langing-page-images/potraits 6.jpg"
+          class="w-100 img-fluid"
+          alt="Alternative text"
+        />
+        <!-- Mask -->
+        <div
+          class="mask"
+          style="
+            background: linear-gradient(
+              to bottom,
+              hsla(0, 0%, 0%, 0),
+              hsla(263, 80%, 20%, 0.0)
+            );
+          "
+        >
+          <div
+            class="
+              bottom-0
+              d-flex
+              align-items-end
+              h-50
+              text-center
+              justify-content-center
+            "
+          >
+            <div>
+              <h2 class="fw-bold text-white mb-4">Freehold title deeds </h2>
+              <a type="button" href="https://my.matterport.com/show/?m=yBcLNtyPgwL&sr=-2.5,-1.1&ss=10" class="btn btn-warning btn-rounded mt-3 btn6">View Houses</a>
+            </div>
+            <div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+
+
+
+
+
+<div
+  class="modal fade"
+  id="staticBackdrop"
+  data-mdb-backdrop="static"
+  data-mdb-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="staticBackdropLabel">Welcome to Goldstone Realtors</p>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Subscribe to our free weekly newsletter and get up to date with the latest Home designs / Property listings.</p>
+        <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form5Example1" class="form-control" />
+          <label class="form-label" for="form5Example1">Name</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="phonenumber" id="form5Example2" class="form-control" />
+          <label class="form-label" for="form5Example2">phone number</label>
+        </div>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
+          <label class="form-check-label" for="form5Example3">
+            I have read and agree to the terms
+          </label>
+        </div>
+      
+        <!-- Submit button -->
+        <!-- <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button> -->
+      </form></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Subscribe</button>
+        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1 "
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="#">Goldstone Realtors</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    <!-- MDB -->
+    
+
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+    ></script>
+    <script src="./assets/landing-js/script.js">async</script>
+</body>
+</html>
